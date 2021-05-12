@@ -13,10 +13,11 @@
     <figure class="image container is-128x128">
         <img class="is-rounded" src="https://avatars.githubusercontent.com/u/68394122?v=4"/>
     </figure>
-    <p class="title">Leo Möller</p>
-    <p class="subtitle">Jag är dagens potatis</p>
-    <a class="button is-info is-outlined is-rounded" href="{{url_for('contact')}}">Contact</a>
-    <a class="button is-danger is-outlined is-rounded" href="https://github.com/bayesd" target="_blank">Github</a>
+    <p class="title">Testing</p>
+    <p class="subtitle">THis is just a test</p>
+    <a class="button is-info is-outlined is-rounded" href="https://hub.docker.com/repository/docker/bayesd/website/builds" target="_blank">Docker Hub</a>
+    <a class="button is-danger is-outlined is-rounded" href="https://github.com/Bayesd/website-CD-with-docker-and-azure" target="_blank">Github</a>
+    <a class="button is-danger is-outlined is-rounded" href="https://portal.azure.com/#@codicse.onmicrosoft.com/resource/subscriptions/5b83cdac-5441-4497-8c55-51466c5d7fb5/resourceGroups/ECLeoRG-Website/providers/Microsoft.Web/sites/leos-website/vstscd" target="_blank">Azure Portal</a>
   </section>
   <section class="columns">
     <div class="column is-three-fifths is-offset-one-fifth has-background-light">
@@ -24,28 +25,24 @@
             <div class="column is=half">
                 <div class="card m-3"> 
                     <div class="card-content has-background-danger-light">
-                        <h1 class="title">About</h1>
-                        {{profile.about|safe}}
+                        <h1 class="title">Card 1</h1>
                     </div>
                 </div>
                 <div class="card m-3"> 
                     <div class="card-content has-background-success-light">
-                        <h1 class="title">Interests</h1>
-                        <p>{{profile.interests|safe}}</p>
+                        <h1 class="title">Card 2</h1>
                     </div>
                 </div>
             </div>
             <div class="column is=half">
                 <div class="card m-3"> 
                     <div class="card-content has-background-info-light">
-                        <h1 class="title">Experience</h1>
-                        <p>{{profile.experience|safe}}</p>
+                        <h1 class="title">Card 3</h1>
                     </div>
                 </div>
                 <div class="card m-3"> 
                     <div class="card-content has-background-warning-light">
-                        <h1 class="title">Education</h1>
-                        <p>{{profile.education|safe}}</p>
+                        <h1 class="title">Card 4</h1>
                     </div>
                 </div>
             </div>
